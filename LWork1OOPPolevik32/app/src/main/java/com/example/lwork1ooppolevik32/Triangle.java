@@ -22,7 +22,7 @@ public class Triangle extends AppCompatActivity {
     }
 
 
-    public void onClickPerimeter(View v) {
+    public void Perimeter(View v) {
 
         //getting strings from input text field
         EditText triangleSide1 = (EditText) findViewById(R.id.input);
@@ -50,7 +50,7 @@ public class Triangle extends AppCompatActivity {
 
     }
 
-    public void onClickArea(View v) {
+    public void SquareHeron(View v) {
         //Getting strings from input text field
         EditText triangleSide1 = (EditText) findViewById(R.id.input);
         String SideA = triangleSide1.getText().toString();

@@ -64,7 +64,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginBottom="84dp"
         android:background="@android:color/transparent"
-        android:onClick="onClickPerimeter"
+        android:onClick="Perimeter"
         android:text=" Периметр"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -77,7 +77,7 @@
         android:layout_marginEnd="31dp"
         android:layout_marginBottom="84dp"
         android:background="@android:color/transparent"
-        android:onClick="onClickArea"
+        android:onClick="SquareHeron"
         android:text=" Площадь"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
